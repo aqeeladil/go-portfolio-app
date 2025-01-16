@@ -1,4 +1,4 @@
-# Complete DevOps Workflow for Go Web Application
+# Portfolio Website | End-to-end CICD Implementation using Docker, Aws-Eks, Github Actions, Helm, ArgoCD & Ingress Conroller.
 
 This repository demonstrates a complete end-to-end DevOps workflow for a Golang web application, implementing industry best practices. It is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests. Below is a detailed guide for setting up and executing each step.
 
