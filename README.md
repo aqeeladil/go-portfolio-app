@@ -48,9 +48,6 @@ sudo systemctl start docker
 sudo usermod -aG docker $USER
 # Log out and log back in to apply the Docker group change.
 
-# Install Go
-sudo apt install golang-go
-
 # Clone the repository
 git clone https://github.com/aqeeladil/go-portfolio-app.git
 cp path/to/Dockerfile path/to/go-portfolio-app/
