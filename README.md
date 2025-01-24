@@ -2,6 +2,9 @@
 
 It is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests. Below is a detailed guide for setting up and executing each step.
 
+### Video Demo
+For the video demo, [click here](https://www.awesomescreenshot.com/video/35883869?key=0479b797f1e1e6acddc221f229315236).
+
 ## Create a `Dockerfile`
 
 ```
