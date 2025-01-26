@@ -4,7 +4,7 @@
 FROM golang:1.22.5 as base         
 # Set the working directory inside the container
 WORKDIR /app
-# Copy the go.mod file to the working directory
+# Copy the go.mod and go.sum to the working directory
 COPY go.mod ./
 # Download all the dependencies
 RUN go mod download
