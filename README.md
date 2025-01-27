@@ -152,7 +152,7 @@ eksctl create cluster \
   --name go-portfolio-cluster \
   --region us-east-1 \
   --nodegroup-name go-portfolio-nodegroup \
-  --node-type t2.micro \
+  --node-type t2.medium \
   --nodes 2 \
   --nodes-min 2 \
   --nodes-max 2
