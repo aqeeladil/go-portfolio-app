@@ -292,7 +292,7 @@ kubectl get all
 **Install Argo CD**:
 ```bash
 kubectl create namespace argocd
-kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cstable/manifests/install.yaml
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
 
 **Access Argo CD UI using Loadbalancer Service**:
